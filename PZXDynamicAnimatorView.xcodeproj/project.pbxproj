@@ -28,6 +28,8 @@
 		9989AF4C2122D75D00AB675E /* ball09.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF432122D75D00AB675E /* ball09.png */; };
 		9989AF4D2122D75D00AB675E /* ball01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF442122D75D00AB675E /* ball01.png */; };
 		9989AF4E2122D75D00AB675E /* ball06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF452122D75D00AB675E /* ball06.png */; };
+		9989AF512122DEE300AB675E /* pzxgra.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF4F2122DEE200AB675E /* pzxgra.gif */; };
+		9989AF522122DEE300AB675E /* pzxpz.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF502122DEE300AB675E /* pzxpz.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		9989AF432122D75D00AB675E /* ball09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball09.png; sourceTree = "<group>"; };
 		9989AF442122D75D00AB675E /* ball01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball01.png; sourceTree = "<group>"; };
 		9989AF452122D75D00AB675E /* ball06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball06.png; sourceTree = "<group>"; };
+		9989AF4F2122DEE200AB675E /* pzxgra.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pzxgra.gif; sourceTree = "<group>"; };
+		9989AF502122DEE300AB675E /* pzxpz.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pzxpz.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 		9989AEBA2122C50800AB675E /* PZXDynamicAnimatorView */ = {
 			isa = PBXGroup;
 			children = (
+				9989AF4F2122DEE200AB675E /* pzxgra.gif */,
+				9989AF502122DEE300AB675E /* pzxpz.gif */,
 				9989AEF42122C60A00AB675E /* PZXDynamicAnimatorView */,
 				9989AEED2122C58A00AB675E /* ViewControllers */,
 				9989AEBB2122C50800AB675E /* AppDelegate.h */,
@@ -309,6 +315,7 @@
 				9989AEC82122C50A00AB675E /* LaunchScreen.storyboard in Resources */,
 				9989AF482122D75D00AB675E /* ball03.png in Resources */,
 				9989AF4A2122D75D00AB675E /* ball02.png in Resources */,
+				9989AF522122DEE300AB675E /* pzxpz.gif in Resources */,
 				9989AF462122D75D00AB675E /* ball05.png in Resources */,
 				9989AF492122D75D00AB675E /* ball07.png in Resources */,
 				9989AEC52122C50A00AB675E /* Assets.xcassets in Resources */,
@@ -318,6 +325,7 @@
 				9989AF4B2122D75D00AB675E /* ball08.png in Resources */,
 				9989AF4E2122D75D00AB675E /* ball06.png in Resources */,
 				9989AF4C2122D75D00AB675E /* ball09.png in Resources */,
+				9989AF512122DEE300AB675E /* pzxgra.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
