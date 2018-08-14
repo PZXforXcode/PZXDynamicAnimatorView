@@ -11,8 +11,6 @@
     _gravityView.ballNum = 99;//弹球数量
     _gravityView.ballSize = 20;//弹球size
     [self.view addSubview:_gravityView];
-  `
-   ` 
     //滑动弹球使用方法
     _slidingView = [[PZXDynamicAnimatorSlidingView alloc]initWithFrame:CGRectMake(0, 61, WIDTH, HEIGHT-64)];
     _slidingView.ballNum = 6;
