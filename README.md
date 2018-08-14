@@ -6,9 +6,9 @@
 ![image](https://github.com/PZXforXcode/PZXDynamicAnimatorView/blob/master/PZXDynamicAnimatorView/pzxpz.gif) 
 
 `  //重力view使用方法
-    _gravityView = [[PZXDynamicAnimatorGravityView alloc]initWithFrame:CGRectMake(0, 64, WIDTH, HEIGHT-64)];</br>
+    _gravityView = [[PZXDynamicAnimatorGravityView alloc]initWithFrame:CGRectMake(0, 64, WIDTH, HEIGHT-64)];
 
-    _gravityView.ballNum = 99;//弹球数量</br>
+    _gravityView.ballNum = 99;//弹球数量
 
     _gravityView.ballSize = 20;//弹球size</br>
 
