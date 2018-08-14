@@ -1,0 +1,21 @@
+//
+//  PZXDynamicAnimatorGravityView.h
+//  PZXDynamicAnimatorView
+//
+//  Created by xrkj on 2018/8/14.
+//  Copyright © 2018年 pengzuxin. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
+
+
+
+@interface PZXDynamicAnimatorGravityView : UIView
+
+@property(nonatomic,assign)NSInteger ballNum;
+@property(nonatomic,assign)CGFloat ballSize;
+@property (nonatomic) CMMotionManager *MotionManager;
+
+
+@end

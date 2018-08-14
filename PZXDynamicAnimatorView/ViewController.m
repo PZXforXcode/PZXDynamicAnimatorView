@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
-
+#import "GravityViewController.h"
+#import "SlidingViewController.h"
 @interface ViewController ()
+
+- (IBAction)gravityButtonPressed:(UIButton *)sender;
+- (IBAction)slidingButtonPressed:(UIButton *)sender;
 
 @end
 
@@ -26,4 +30,15 @@
 }
 
 
+- (IBAction)gravityButtonPressed:(UIButton *)sender {
+    
+    GravityViewController *vc = [[GravityViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)slidingButtonPressed:(UIButton *)sender {
+    
+    SlidingViewController *vc = [[SlidingViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end

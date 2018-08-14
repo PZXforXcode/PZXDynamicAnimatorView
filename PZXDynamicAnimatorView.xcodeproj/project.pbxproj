@@ -15,6 +15,19 @@
 		9989AECB2122C50A00AB675E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9989AECA2122C50A00AB675E /* main.m */; };
 		9989AED52122C50B00AB675E /* PZXDynamicAnimatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9989AED42122C50B00AB675E /* PZXDynamicAnimatorViewTests.m */; };
 		9989AEE02122C50B00AB675E /* PZXDynamicAnimatorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9989AEDF2122C50B00AB675E /* PZXDynamicAnimatorViewUITests.m */; };
+		9989AEF02122C5C600AB675E /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9989AEEF2122C5C600AB675E /* GravityViewController.m */; };
+		9989AEF32122C5DB00AB675E /* SlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9989AEF22122C5DB00AB675E /* SlidingViewController.m */; };
+		9989AEFA2122C75900AB675E /* PZXDynamicAnimatorGravityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9989AEF92122C75900AB675E /* PZXDynamicAnimatorGravityView.m */; };
+		9989AEFD2122C78500AB675E /* PZXDynamicAnimatorSlidingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9989AEFC2122C78500AB675E /* PZXDynamicAnimatorSlidingView.m */; };
+		9989AF462122D75D00AB675E /* ball05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF3D2122D75C00AB675E /* ball05.png */; };
+		9989AF472122D75D00AB675E /* ball04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF3E2122D75C00AB675E /* ball04.png */; };
+		9989AF482122D75D00AB675E /* ball03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF3F2122D75C00AB675E /* ball03.png */; };
+		9989AF492122D75D00AB675E /* ball07.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF402122D75D00AB675E /* ball07.png */; };
+		9989AF4A2122D75D00AB675E /* ball02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF412122D75D00AB675E /* ball02.png */; };
+		9989AF4B2122D75D00AB675E /* ball08.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF422122D75D00AB675E /* ball08.png */; };
+		9989AF4C2122D75D00AB675E /* ball09.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF432122D75D00AB675E /* ball09.png */; };
+		9989AF4D2122D75D00AB675E /* ball01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF442122D75D00AB675E /* ball01.png */; };
+		9989AF4E2122D75D00AB675E /* ball06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9989AF452122D75D00AB675E /* ball06.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,23 @@
 		9989AEDB2122C50B00AB675E /* PZXDynamicAnimatorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXDynamicAnimatorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9989AEDF2122C50B00AB675E /* PZXDynamicAnimatorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXDynamicAnimatorViewUITests.m; sourceTree = "<group>"; };
 		9989AEE12122C50B00AB675E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9989AEEE2122C5C600AB675E /* GravityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
+		9989AEEF2122C5C600AB675E /* GravityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
+		9989AEF12122C5DB00AB675E /* SlidingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingViewController.h; sourceTree = "<group>"; };
+		9989AEF22122C5DB00AB675E /* SlidingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingViewController.m; sourceTree = "<group>"; };
+		9989AEF82122C75900AB675E /* PZXDynamicAnimatorGravityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXDynamicAnimatorGravityView.h; sourceTree = "<group>"; };
+		9989AEF92122C75900AB675E /* PZXDynamicAnimatorGravityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXDynamicAnimatorGravityView.m; sourceTree = "<group>"; };
+		9989AEFB2122C78500AB675E /* PZXDynamicAnimatorSlidingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXDynamicAnimatorSlidingView.h; sourceTree = "<group>"; };
+		9989AEFC2122C78500AB675E /* PZXDynamicAnimatorSlidingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXDynamicAnimatorSlidingView.m; sourceTree = "<group>"; };
+		9989AF3D2122D75C00AB675E /* ball05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball05.png; sourceTree = "<group>"; };
+		9989AF3E2122D75C00AB675E /* ball04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball04.png; sourceTree = "<group>"; };
+		9989AF3F2122D75C00AB675E /* ball03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball03.png; sourceTree = "<group>"; };
+		9989AF402122D75D00AB675E /* ball07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball07.png; sourceTree = "<group>"; };
+		9989AF412122D75D00AB675E /* ball02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball02.png; sourceTree = "<group>"; };
+		9989AF422122D75D00AB675E /* ball08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball08.png; sourceTree = "<group>"; };
+		9989AF432122D75D00AB675E /* ball09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball09.png; sourceTree = "<group>"; };
+		9989AF442122D75D00AB675E /* ball01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball01.png; sourceTree = "<group>"; };
+		9989AF452122D75D00AB675E /* ball06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball06.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,8 @@
 		9989AEBA2122C50800AB675E /* PZXDynamicAnimatorView */ = {
 			isa = PBXGroup;
 			children = (
+				9989AEF42122C60A00AB675E /* PZXDynamicAnimatorView */,
+				9989AEED2122C58A00AB675E /* ViewControllers */,
 				9989AEBB2122C50800AB675E /* AppDelegate.h */,
 				9989AEBC2122C50800AB675E /* AppDelegate.m */,
 				9989AEBE2122C50800AB675E /* ViewController.h */,
@@ -130,6 +162,45 @@
 				9989AEE12122C50B00AB675E /* Info.plist */,
 			);
 			path = PZXDynamicAnimatorViewUITests;
+			sourceTree = "<group>";
+		};
+		9989AEED2122C58A00AB675E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9989AEEE2122C5C600AB675E /* GravityViewController.h */,
+				9989AEEF2122C5C600AB675E /* GravityViewController.m */,
+				9989AEF12122C5DB00AB675E /* SlidingViewController.h */,
+				9989AEF22122C5DB00AB675E /* SlidingViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9989AEF42122C60A00AB675E /* PZXDynamicAnimatorView */ = {
+			isa = PBXGroup;
+			children = (
+				9989AEFE2122C87F00AB675E /* headIcon */,
+				9989AEF82122C75900AB675E /* PZXDynamicAnimatorGravityView.h */,
+				9989AEF92122C75900AB675E /* PZXDynamicAnimatorGravityView.m */,
+				9989AEFB2122C78500AB675E /* PZXDynamicAnimatorSlidingView.h */,
+				9989AEFC2122C78500AB675E /* PZXDynamicAnimatorSlidingView.m */,
+			);
+			path = PZXDynamicAnimatorView;
+			sourceTree = "<group>";
+		};
+		9989AEFE2122C87F00AB675E /* headIcon */ = {
+			isa = PBXGroup;
+			children = (
+				9989AF442122D75D00AB675E /* ball01.png */,
+				9989AF412122D75D00AB675E /* ball02.png */,
+				9989AF3F2122D75C00AB675E /* ball03.png */,
+				9989AF3E2122D75C00AB675E /* ball04.png */,
+				9989AF3D2122D75C00AB675E /* ball05.png */,
+				9989AF452122D75D00AB675E /* ball06.png */,
+				9989AF402122D75D00AB675E /* ball07.png */,
+				9989AF422122D75D00AB675E /* ball08.png */,
+				9989AF432122D75D00AB675E /* ball09.png */,
+			);
+			path = headIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +307,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9989AEC82122C50A00AB675E /* LaunchScreen.storyboard in Resources */,
+				9989AF482122D75D00AB675E /* ball03.png in Resources */,
+				9989AF4A2122D75D00AB675E /* ball02.png in Resources */,
+				9989AF462122D75D00AB675E /* ball05.png in Resources */,
+				9989AF492122D75D00AB675E /* ball07.png in Resources */,
 				9989AEC52122C50A00AB675E /* Assets.xcassets in Resources */,
 				9989AEC32122C50800AB675E /* Main.storyboard in Resources */,
+				9989AF4D2122D75D00AB675E /* ball01.png in Resources */,
+				9989AF472122D75D00AB675E /* ball04.png in Resources */,
+				9989AF4B2122D75D00AB675E /* ball08.png in Resources */,
+				9989AF4E2122D75D00AB675E /* ball06.png in Resources */,
+				9989AF4C2122D75D00AB675E /* ball09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +344,11 @@
 			files = (
 				9989AEC02122C50800AB675E /* ViewController.m in Sources */,
 				9989AECB2122C50A00AB675E /* main.m in Sources */,
+				9989AEFD2122C78500AB675E /* PZXDynamicAnimatorSlidingView.m in Sources */,
 				9989AEBD2122C50800AB675E /* AppDelegate.m in Sources */,
+				9989AEFA2122C75900AB675E /* PZXDynamicAnimatorGravityView.m in Sources */,
+				9989AEF02122C5C600AB675E /* GravityViewController.m in Sources */,
+				9989AEF32122C5DB00AB675E /* SlidingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +520,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
 				INFOPLIST_FILE = PZXDynamicAnimatorView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +538,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
 				INFOPLIST_FILE = PZXDynamicAnimatorView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
