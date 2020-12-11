@@ -60,12 +60,12 @@
         
         UIImageView *ball = [UIImageView new];
         
-        //球的随机颜色
+        //球的随机样式
         ball.image = [UIImage imageNamed:[NSString stringWithFormat:@"ball0%ld.png",i%10]];
         ball.contentMode = UIViewContentModeScaleToFill;
 
 //        ball.backgroundColor = [UIColor orangeColor];
-        //球的随机大小:40~60之间
+        //球的大小:可根据图片调节
         CGFloat width = self.ballSize;
         ball.layer.cornerRadius = width/2;
         ball.layer.masksToBounds = YES;
@@ -114,6 +114,7 @@
         NSString *yaw = [NSString stringWithFormat:@"%f",motion.attitude.yaw];
         NSString *pitch = [NSString stringWithFormat:@"%f",motion.attitude.pitch];
         NSString *roll = [NSString stringWithFormat:@"%f",motion.attitude.roll];
+        NSLog(@"%@,%@,%@",yaw,pitch,roll);
         
         double rotation = atan2(motion.attitude.pitch, motion.attitude.roll);
         
